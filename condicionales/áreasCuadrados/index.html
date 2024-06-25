@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas de tres cuadrados</title>
+    <script src="js/áreaCuadrado.js"></script>
+
+</head>
+<body>
+    <script>
+        cuad1 = areaCuadrado(47);
+        cuad2 = areaCuadrado(89);
+        cuad3 = areaCuadrado(32);
+
+        if(cuad1 == cuad2 && cuad1 == cuad3){
+            console.log("son iguales");
+        }
+        else{
+            if(cuad1 > cuad2 && cuad1 > cuad3){
+                console.log(""+cuad1,"es el mayor");
+            }
+            else{
+                if(cuad2 > cuad1 && cuad2 > cuad3){
+                    console.log(""+cuad2,"es el mayor");
+                }
+                else{
+                    console.log(""+cuad3,"es el mayor");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

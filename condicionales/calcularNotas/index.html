@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Notas</title>
+    <script src="js/calcularNotas.js"></script>
+</head>
+<body>
+    <script>
+        let porcen1, porcen2, porcen3;
+
+        porcen1 = calcularPorcen(1.9, 0.2);
+        porcen2 = calcularPorcen(4.3, 0.35);
+        porcen3 = calcularPorcen(2.9, 0.45);
+
+        suma = porcen1 + porcen2 + porcen3;
+
+        console.log("nota 1: "+porcen1);
+        console.log("nota 2: "+porcen2);
+        console.log("nota 3: "+porcen3);
+        console.log("suma: "+suma);
+        console.log(definirNota(suma))
+    </script>
+</body>
+</html>

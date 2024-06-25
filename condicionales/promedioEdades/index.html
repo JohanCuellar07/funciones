@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular edades y promedio</title>
+    <script src="js/promedioEdades.js"></script>
+</head>
+<body>
+    <script>
+        let edad1, edad2,edad3;
+        let anioAct = 2024;
+
+        edad1 = calcularEdad(anioAct, 1976);
+        edad2 = calcularEdad(anioAct, 2001);
+        edad3 = calcularEdad(anioAct, 2011);
+
+        promedio = (edad1 + edad2 + edad3)/3;
+
+        console.log(edad1,definirEdad(edad1));
+        console.log(edad2,definirEdad(edad2));
+        console.log(edad3,definirEdad(edad3));
+        console.log("promedio("+promedio+"): "+definirEdad(promedio));
+    </script>
+</body>
+</html>
